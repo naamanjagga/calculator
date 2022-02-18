@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" >
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id="header">
+            <p id="p1">.</p>
+            <p id="p2">.</p>
+            <p id="p3">.</p>
+          <table id="table1">
+            <tr id="row1"><input type="text" id="box" ></tr><br>
+            <tr><button id="btn1" onclick="clearvalue()" >AC</button>
+                <button id="btn2" onclick="toggle()" >+/-</button>
+                <button id="btn3" onclick="addValue('%')" >%</button>
+                <button id="btn4" onclick="addValue('/')" >/</button>
+            </tr><br>
+            <tr> 
+                <button id="btn5" onclick="addValue(7)" >7</button>
+                <button id="btn6" onclick="addValue(8)" >8</button>
+                <button id="btn7" onclick="addValue(9)" >9</button>
+                <button id="btn8" onclick="addValue('*')" >*</button>
+            </tr><br>
+            <tr>
+                <button id="btn9" onclick="addValue(4)" >4</button>
+                <button id="btn10" onclick="addValue(5)" >5</button>
+                <button id="btn11" onclick="addValue(6)" >6</button>
+                <button id="btn12" onclick="addValue('-')">-</button>
+            </tr><br>
+            <tr>
+                <button id="btn13" onclick="addValue(1)" >1</button>
+                <button id="btn14" onclick="addValue(2)" >2</button>
+                <button id="btn15" onclick="addValue(3)" >3</button>
+                <button id="btn16" onclick="addValue('+')" >+</button>
+            </tr><br>
+            <tr>
+                <button id="btn17" onclick="addValue(0)" >0</button>
+                <button id="btn19" onclick="addValue('.')" >.</button>
+                <button id="btn20" onclick="Value()">=</button>
+            </tr><br>
+
+        </table>
+</div>
+</div>
+    <script src="script.js" ></script>
+</body>
+</html>

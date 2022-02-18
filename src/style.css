@@ -1,0 +1,89 @@
+body{
+    margin: 5%;
+    margin-left: 35%;
+    /* background-color: black; */
+}
+table {
+    background-color: black;
+    border-radius: 20%;
+}
+button {
+    padding: 17px 21px;
+    width: auto;
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 1px 1px; */
+    cursor: pointer;
+}
+input {
+    background-color: black;
+    color: white;
+    width: 212px;
+    text-align: right;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom : 1%;
+
+}
+#btn4 ,#btn8 ,#btn12 ,#btn16 ,#btn20 {
+    background-color: orange;
+}
+#btn1 {
+    padding: 17px 14.5px;
+    background-color: #696969;
+}
+#btn2 {
+    padding: 17px 16px;
+    background-color: #696969;
+}
+#btn3 {
+    padding: 17px 18px;
+    background-color: #696969;
+}
+#btn8 {
+    padding: 17px 22.6px;
+}
+#btn12 {
+    padding: 17px 23px;
+}
+#btn19 {
+    padding: 17px 23.7px;
+}
+#btn17 {
+    padding: 17px 48px;
+}
+#btn4 {
+    padding: 17px 23.3px;
+}
+/* #header {
+    margin-right: 42vw;
+} */
+#p1 {
+    position: absolute;
+    padding: .2px 8px;
+    background-color: gray;
+    border-radius: 100%;
+    color: gray;
+    margin: 5px;
+}
+#p2 {
+    position: absolute;
+    padding: .2px 8px;
+    background-color: gray;
+    border-radius: 100%;
+    color: gray;
+    margin: 5px 5px 5px 35px;
+}
+#p3 {
+    position: absolute;
+    padding: .2px 8px;
+    background-color: gray;
+    border-radius: 100%;
+    color: gray;
+    margin: 5px 5px 5px 65px;
+}
